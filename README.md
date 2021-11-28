@@ -8,6 +8,7 @@ sequentially. This readme explains the flow of the code in the notebook:
 3.Run both Class Definitions: Log_class and k_fold
 
 A.Bankrupcy Dataset
+
 	A.1 Running Logistic regression on the entire dataset:
 	1.import data and split into xtrain,ytrain,xtest,ytest
 	2.OPTIONAL: Add polynomial features(square,cube etc. of features)
@@ -29,6 +30,7 @@ A.Bankrupcy Dataset
 		scaler=None : input an instance of a scikit learn scaling function like MinMaxScaler() or StandardScaler().
 
 B.Hepatitis Dataset
+
 	B.1 Running Logistic regression on the entire dataset:
 	1.import data and split into xtrain,ytrain,xtest,ytest
 	2.OPTIONAL: Add polynomial features(square,cube etc. of features)
